@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+
+    /* background-image: url("iitkgp.jpg"); */
+    /* background-color: burlywood; */
+    background-color: #e1e2dd;
+
+
+}
+
+header {
+    padding-top: 5px;
+    padding-left: 40px;
+    margin: 0px;
+    border: 0px;
+    width: 50%;
+    
+    font-size: 200%;
+
+    margin-top: 25px;
+    margin-left: 100px;
+
+    text-transform: uppercase;
+    /* font-family: cursive; */
+}
+
+header p {
+    font-family: cursive;
+}
+
+header span {
+    font-family: cursive;
+    color: brown;
+}
+
+.btn{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+
+    float: right;
+    margin-right: 200px;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+
+.kgp {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kgp h1 {
+    font-family: sans-serif;
+    font-size: 40px; /* 40px */
+    letter-spacing: 2px;
+    font-weight: lighter;
+
+    margin-bottom: 20px;
+}
+
+.kgp h1 a {
+    text-decoration: none;
+    color: brown;
+}
+
+.kgp h1 a:hover {
+    color: blue;
+}
+
+.kgp p {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+    text-align: center;
+    width: 60%;
+    margin-left: 300px;
+}
+
+.kgp span {
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+.krssg {
+    margin-top: 30px;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.krssg h1 {
+    font-family: sans-serif;
+    font-size: 40px; /* 40px */
+    letter-spacing: 2px;
+    font-weight: lighter;
+
+    margin-bottom: 20px;
+}
+
+.krssg h1 a {
+    text-decoration: none;
+    color: brown;
+}
+
+.krssg h1 a:hover {
+    color: blue;
+}
+
+.krssg img {
+    margin-bottom: 20px;
+}
+
+.krssg p {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+    text-align: center;
+    width: 60%;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+.krssg span {
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+.krssg span2 {
+    /* background-color: white; */
+    /* color: brown; */
+    font-weight: bold;
+
+    letter-spacing: 3px;
+    font-style: normal;
+}
+
+.skills h2 {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill-card {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 25px;
+
+    /* float: left;
+    margin: 3px; 
+    max-width: 10%;
+    */
+    /* float: inline-end; */
+    width: 25%;
+    float: left;
+    box-shadow: 0 7px 30px -10px rgb(150 170 180 / 50%);
+
+    /* margin-right: 10px;
+    margin-left: 10px; */
+}
+
+.skill-cards-container {
+    position: relative;
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    bottom: 0;
+    -webkit-transition: bottom .3s;
+    transition: bottom .3s;
+
+    margin-bottom: 50px;
+}
+
+.skill-card:hover {
+    transform: scale(1.2);
+}

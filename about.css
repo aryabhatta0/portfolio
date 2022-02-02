@@ -1,0 +1,304 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+
+    /* background-color: rgb(175, 113, 184); */
+    /* background-color: #c2b8ad; */
+    background-color: #e1e2dd;
+}
+
+.about {
+    /* bg color overwrite kyu nahi hote hai */
+    /* background-color: #000000; */
+
+    text-align: center;
+    margin: 50px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+
+    color: white;
+}
+
+header h1 {
+    background-color: rgb(17, 124, 143);
+}
+
+span {
+    color: red;
+    font-family: monospace;
+    font-weight: bold;
+
+    background-color: rgb(17, 124, 143);
+}
+.about h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    /* background-color: rgb(149, 28, 165); */
+
+    font-family: monospace;
+    font-weight: bold;    
+}
+
+.about img {
+    background-image: url("https://i0.wp.com/zeevector.com/wp-content/uploads/2021/03/Light-color-brochure-background-free-download-scaled.jpg?fit=1811%2C2560&ssl=1");
+    /* background-color: brown; */
+    padding-top: 5px;
+
+    /* border kyu nahi aa raha */
+    /* border-style: dotted;
+    border: 500px;
+    border-color: black; */
+
+    float: left;
+    /* margin: 100px; */
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+
+
+
+.about-text span {
+    color: rgb(155, 18, 18);
+    font-style: normal;
+    font-weight: bold;
+
+    background-color: white;
+}
+
+.about-text span2 {
+    font-style: normal;
+    background-color: white;
+}
+/* limits the text into a fixed width */
+.about-text {
+    padding-top: 100px;
+    padding-left: 400px;
+    padding-right: 100px;
+    width: 1200px;
+    /* float: right; */
+    margin-bottom: 25px;
+
+    font-family: sans-serif;
+    font-size: 40px; /* 40px */
+    letter-spacing: 5px;
+
+    /* padding-bottom: 2px;
+    border: 20px; */
+}
+
+/* head {
+    padding: 10px;
+
+    text-align: center;
+} */
+.hobby {
+    padding-top: 20px;
+}
+header2 {
+    /* padding: 10px; */
+    /* margin: 10px; */
+
+    text-align: center;
+    font-size: 50px;
+    /* border-style: solid; */
+
+    float: left;
+
+    padding-top: 5px;
+    padding-left: 40px;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+    
+    /* font-size: 200%; */
+    font-weight: lighter;
+
+    margin-top: 15px;
+}
+
+header2 h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+    color: rgb(136, 104, 22);
+
+}
+
+clr {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+
+    color: brown;
+}
+
+
+/* .hobby {
+    background-color: cyan;
+} */
+
+#hobby {
+    padding-top: 5px;
+    padding-left: 80px;
+    margin: 0px;
+    /* margin-left: 50px; */
+    border: 0px;
+
+    width: 50%;
+
+    font-size: 200%;
+    font-family: cursive;
+    text-transform: uppercase;
+
+    margin-top: 10px;
+}
+
+#detail {
+    /* width: 42000px; */
+    width: 60%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px; /* 40px */
+    letter-spacing: 5px;
+
+    /* background-color: brown; */
+
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+
+    font-style: italic;
+}
+
+#detail span {
+    color: rgb(155, 18, 18);
+    font-style: normal;
+    font-weight: bold;
+
+    background-color: white;
+}
+
+#detail span2 {
+    color: rgb(136, 104, 22);
+
+    font-style: normal;
+    font-weight: bold;
+
+    background-color: white;
+}
+
+c {
+    color: brown;
+    font-family: cursive;
+}
+
+/* .hobby header2 h1 {
+    text-align: center;
+    color: brown;
+
+    width: 100%;
+    
+    
+    width: auto;
+    margin: auto;
+} */
+
+.center {
+    /* width: 200%; */
+    text-align: center;
+}
+
+.hobby-content {
+    /* margin-top: 10px; */
+    text-align: center;
+
+    font-family: sans-serif;
+    font-size: 20px; /* 40px */
+    letter-spacing: 2px;
+
+}
+
+.hobby-content div img{
+    /* transform: rotateY(-10deg); */
+    /* transform: rotateZ(-2deg); */
+    /* transform: perspective(30); */
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+SOFTWARE {
+    float: right;
+
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+
+SOFTWARE img {
+    margin-bottom: 5px;
+}
+
+SOFTWARE p {
+    font-size: 25px;
+}
+
+PP {
+    /* font-family: serif; */
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+PPC {
+    color: brown;
+}
+
+.timeline {
+    margin-top: 30px;
+    /* background-color: brown; */
+
+    text-align: center;
+}
+
+.large {
+    margin-top: 50px;
+    margin-bottom: 5px;
+
+    font-size: 30px;
+    font-style: normal;
+}
+
+#TFPS {
+    font-family: serif;
+    font-style: italic;
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
+
+#DASTOOR {
+    font-size: 20px;
+    font-style: italic;
+
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
